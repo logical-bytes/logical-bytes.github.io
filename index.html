@@ -92,6 +92,9 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+  <!-- Symbols for Switch button
+  ================================================== -->
+
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -164,14 +167,7 @@
           <li class="nav-item">
             <a class="nav-link" href="https://github.com/logical-bytes">Github</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
@@ -190,32 +186,41 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/>
+          <image width="100%" href="images/computer-networking-img1.png"/>
+        </svg>
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Programming knowledge.</h1>
-            <p class="opacity-75">We have developers who have programming skills and professional experience in frontend and backend technologies.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            <h1 class="text-light">Networking knowledge.</h1>
+            <p class="text-light opacity-80">We have developers who have professional experience in networking, with Cisco on their CVs.</p>
+            <p><a class="btn btn-lg btn-primary" href="#first-extra-section">Learn more</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/>
+          <image width="100%" href="images/computer-programming-img1.png"/>
+        </svg>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Infrastructure knowledge.</h1>
-            <p>We have developers who have professional experience in infrastructure and automation.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            <h1 class="text-light">Programming knowledge.</h1>
+            <p class="text-light opacity-80">We have developers who have programming skills and professional experience in frontend and backend technologies.</p>
+            <p><a class="btn btn-lg btn-primary" href="#second-extra-section">Learn more</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/>
+          <image width="100%" href="images/computer-infrastructure-img1.png"/>
+        </svg>
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>Networking knowledge.</h1>
-            <p>We have developers who have professional experience in networking, with Cisco on their CVs.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <h1 class="text-light">Infrastructure knowledge.</h1>
+            <p class="text-light opacity-80">We have developers who have professional experience in infrastructure and automation.</p>
+            <p><a class="btn btn-lg btn-primary" href="#third-extra-section">Learn more</a></p>
           </div>
         </div>
       </div>
@@ -272,37 +277,46 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="first-extra-section" class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">TODO heading. <span class="text-body-secondary">TODO second heading.</span></h2>
-        <p class="lead">TODO text.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Networking knowledge. <span class="text-body-secondary">Networking and Security.</span></h2>
+        <p class="lead">We hold CCNA and Devnet Certifications. With a strong background in Cisco Firewall technologies, including Adaptative Security Applicance (ASA), Firepower Threat Defense (FTD) and Firepower Management Center (FMC), and multiple integrations like Cisco Identity Services Engine (ISE), Splunk, Syslog servers, etc. we bring valuable professional experience to ensure robust and secure network infrastructures and their integration with applications.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/>
+          <image width="100%" height="100%" href="images/computer-networking-img1.png"/>
+        </svg>
       </div>
     </div>
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="second-extra-section" class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">TODO heading. <span class="text-body-secondary">TODO second heading.</span></h2>
-        <p class="lead">TODO text.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Programming knowledge. <span class="text-body-secondary">Frontend and Backend.</span></h2>
+        <p class="lead">We have experience in developing enterprise applications using diverse technologies. Our expertise spans frontend technologies such as React, Angular, HTML, CSS, and Javascript, along with proficiency in backend technologies including Java, Java Spring, Java EE, C, Python, SQL, and databases like PostgreSQL, MySQL, and MariaDB. Additionally, we have in-depth understanding of Microservices and adhere to good programming practices and patterns.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/>
+          <image width="100%" height="100%" href="images/computer-programming-img1.png"/>
+        </svg>
       </div>
     </div>
-
+    
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="third-extra-section" class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">TODO heading. <span class="text-body-secondary">TODO second heading.</span></h2>
-        <p class="lead">TODO text.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Infrastructure knowledge. <span class="text-body-secondary">On-premises and Cloud.</span></h2>
+        <p class="lead">We have professional experience in maintaining and supporting both on-prem and cloud-based infrastructures/applications. For example, we had deployed applications in a Kubernetes cluster on Google Cloud (GCP) using Infrastructure as Code (IaaC) principles. Our capabilities extend to creating on-premises servers for various purposes (for instance, Bind9 for DNS), as well as managing Docker containers and their orchestrators such as Docker Swarm or Kubernetes. Additionally, we have used several IaaC technologies such as Ansible, Terraform, and Vagrant.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/>
+          <image width="100%" height="100%" href="images/computer-infrastructure-img1.png"/>
+        </svg>
       </div>
     </div>
 
@@ -315,7 +329,7 @@
 
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2024 Logical Company, Freelance Group. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; 2024 Logical Bytes, Freelance Group.</p>
   </footer>
 
 </main>
